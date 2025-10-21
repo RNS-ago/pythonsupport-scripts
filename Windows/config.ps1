@@ -18,7 +18,7 @@ $script:VSCODE_EXTENSIONS = @(
     "ms-python.python"
     "ms-python.pylint"
     "ms-toolsai.jupyter"
-    "tomoki1207.pdf"
+    #"tomoki1207.pdf"
 )
 
 # Installation paths
@@ -35,4 +35,4 @@ $script:LOG_DIR = $env:TEMP
 $env:PYTHON_VERSION_DTU = $PYTHON_VERSION_DTU
 $env:MINIFORGE_PATH = $MINIFORGE_PATH
 $env:LOG_PREFIX = $LOG_PREFIX
-$env:LOG_DIR = $LOG_DIR
+$env:LOG_DIR = $LOG_DIR$env:LOG_DIR = $LOG_DIR$env:LOG_DIR = $LOG_DIR
