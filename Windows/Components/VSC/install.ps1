@@ -117,7 +117,7 @@ Write-Host "Installing VSCode extensions..."
 # Define extensions to install (matching macOS)
 $extensions = @(
     "ms-python.python",
-    "ms-toolsai.jupyter", 
+    "ms-toolsai.jupyter"
     #"tomoki1207.pdf"
 )
 
